@@ -1,8 +1,8 @@
 #!/bin/bash
-isExistApp = `pgrep httpd`
-if [[ -n  $isExistApp ]]; then
+#isExistApp = `pgrep httpd`
+#if [[ -n  $isExistApp ]]; then
     service httpd stop        
-fi
+#fi
 # Here is where you'd want to stop your http daemon. For example:
 #service httpd stop
 #exit $?
