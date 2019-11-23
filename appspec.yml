@@ -6,7 +6,7 @@ files:
 permissions:
   - object: /var/www/html/WordPress/scripts/
     pattern: "**" 
-    owner: ec2-user 
+    owner: root
     mode: 777 
     type: 
       - file 
