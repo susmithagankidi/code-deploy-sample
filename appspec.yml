@@ -4,7 +4,8 @@ files:
   - source: /
     destination: /var/www/html/WordPress
 permissions:
-  - object: /var/www/html/WordPress/scripts/**
+  - object: /var/www/html/WordPress/scripts/
+    pattern: "*"
     owner: root
     mode: 777 
     type: 
