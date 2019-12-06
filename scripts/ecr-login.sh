@@ -9,4 +9,3 @@ fi
 docker pull 272842187865.dkr.ecr.us-east-1.amazonaws.com/nginx:latesttest
 docker images
 docker run -d -p 5000:5000 --restart always 272842187865.dkr.ecr.us-east-1.amazonaws.com/nginx:latesttest
-docker container ls
